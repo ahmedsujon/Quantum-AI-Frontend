@@ -1,0 +1,2 @@
+Title of the of talk: An introduction to Reinforcement Learning
+Designation: Lecturer, ECE Dept. North South University

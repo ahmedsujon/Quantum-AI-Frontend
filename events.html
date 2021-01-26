@@ -1,0 +1,1274 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Events | Quantum AI</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico">
+		<!-- CSS here -->
+        <link rel="stylesheet" href="./assets/plugins/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="./assets/plugins/slick/slick.css">
+        <link rel="stylesheet" href="./assets/plugins/slick/slick-theme.css">
+        <link rel="stylesheet" href="./assets/css/utility.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/responsive.css">
+    </head>
+    <body class="position-relative">
+
+        <!-- header start -->
+        <header class="header-area" id="header-nav">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 d-flex align-items-center justify-content-between">
+                        <div class="site-logo">
+                            <a href="index.html">
+                                <img src="./assets/images/logo/Logo-web-V1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="mobile-sidebar-icon color-white d-lg-none" onclick="showMobileNav()">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 d-none d-lg-block">
+                        <nav class="nav-items text-center">
+                            <ul class="list-unstyled">
+                                <li class="d-inline-block">
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="courses.html">Courses</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="events.html">Events</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="about-us.html">About Us</a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="contact-us.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-lg-3 d-none d-lg-block">
+                      <div class="search text-right">
+                        <form action="" class="full-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search here" aria-label="Search here" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <button class="input-group-text h-100" id="basic-addon2">
+                                    <i class="fas fa-search"></i>
+                                  </button>
+                                </div>
+                            </div>
+                        </form>
+                        <span class="clickable-search color-white">
+                          <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <main>
+            <!-- hero start -->
+            <section class="pages-hero-area event-hero">
+              <div class="container">
+                  <div class="hero-contents text-center color-white">
+                      <!-- <h6 class="date mb-3">November 28-30, 2020</h6> -->
+                      <h1 class="heading mb-20">Running Events</h1>
+                      <!-- <ul class="details list-unstyled mb-40">
+                        <li class="d-inline-block">
+                           11 Days
+                        </li>
+                        <li class="d-inline-block">
+                          8 Miniutes 
+                        </li>
+                        <li class="d-inline-block">
+                          8 Seconds 
+                        </li>
+                    </ul> -->
+
+                    <!-- registration modal start -->
+                      <a class="btn mb-3 mr-lg-3" href="#" data-toggle="modal" data-target="#exampleModal">Workshop Registration</a>
+
+                      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h6 class="modal-title" id="exampleModalLabel">Register for Workshop</h6>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <form action="">
+                              <div class="modal-body">
+                                <div class="form-group">
+                                  <label for="name" class="col-form-label">Your Name:</label>
+                                  <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="email" class="col-form-label">Your E-mail:</label>
+                                  <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="phone" class="col-form-label">Your Phone Number:</label>
+                                  <input type="text" class="form-control" id="phone" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="address" class="col-form-label">Your Address:</label>
+                                  <input type="text" class="form-control" id="address" required>
+                                </div>
+                                <div class="form-group">
+                                  <label for="company" class="col-form-label">Your Institution/Company:</label>
+                                  <input type="text" class="form-control" id="company" required>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="submit" class="btn" data-toggle="modal" data-target="#exampleModal2">Submit</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- thank you modal start -->
+                      <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h6 class="modal-title" id="exampleModalLabel">Thank You for Registration</h6>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- thank you modal end -->
+                      <p id="timer"></p>
+                    <!-- registration modal start -->
+                  </div>
+              </div>
+            </section>
+            <!-- hero end -->
+
+            <!-- welcome message start -->
+            <section class="welcome-message-area pt-80 pb-80 bg-light-ash">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="col-lg-12 mb-3">
+                    <h4 class="heading text-center mb-30">Welcome to the First AI & IoT Virtual Career Conference 2020</h4>
+                      <p class="description">We are happy to announce that “Data Science Summit 2020” , organized by Daffodil International University will be held virtually on November 22-23, 2020. This summit brings together data scientists, business analyst, lecturers and researchers from academia and industry to discuss state-of-the-art data science, applied machine learning, business intelligence and predictive applications. It features 3 talks and 3 hands-on workshops of leading experts and researchers in these fields.</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- welcome message end -->
+
+            <!-- Banner Img Start -->
+            <section>
+              <div class="container mt-60">
+                <div class="mb-3">
+                  <img src="assets/images/team-members/Ai-conference-poster.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </section>
+            <!-- Banner Img end -->
+
+            <!-- event details start -->
+            <section class="event-details-area pt-80 pb-80">
+              <div class="container">
+                <div class="text-center">
+                  <h4 class="heading mb-40">About This Workshop</h4>
+                  <p class="description">We are happy to announce that “Data Science Summit 2020” , organized by Daffodil International University will be held virtually on November 22-23, 2020. This summit brings together data scientists, business analyst, lecturers and researchers from academia and industry to discuss state-of-the-art data science, applied machine learning, business intelligence and predictive applications. It features 3 talks and 3 hands-on workshops of leading experts and researchers in these fields.</p>
+                </div>
+              </div>
+            </section>
+            <!-- event details end -->
+
+            <!-- why event start -->
+            <section class="why-event-area pt-80 pb-80">
+              <div class="container">
+                <h4 class="heading text-center mb-40">Why you should Join Event</h4>
+                <div class="row">
+                  <div class="col-lg-4 mb-3">
+                    <div class="why-evnet-item d-flex">
+                      <div class="icon mr-3">
+                        <i class="fa fa-microphone"></i>
+                      </div>
+                      <div class="text">
+                        <h6 class="item-heading mb-3">
+                          World Class speakers and trainers
+                        </h6>
+                        <p class="item-description">
+                          Our speakers and trainers from not only from Bangladesh , but also from Canada, India, Indonesia and Malaysia. Local speakers and trainers are from a2i, BASIS, Grameenphone and Hishab Ltd.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-3">
+                    <div class="why-evnet-item d-flex">
+                      <div class="icon mr-3">
+                        <i class="fa fa-users"></i>
+                      </div>
+                      <div class="text">
+                        <h6 class="item-heading mb-3">
+                          Meet New People
+                        </h6>
+                        <p class="item-description">
+                          Opportunity to connect with new people with different background.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 mb-3">
+                    <div class="why-evnet-item d-flex">
+                      <div class="icon mr-3">
+                        <i class="fas fa-graduation-cap"></i>
+                      </div>
+                      <div class="text">
+                        <h6 class="item-heading mb-3">
+                          Certificates
+                        </h6>
+                        <p class="item-description">
+                          Certificates will be provided who will successfully attend and complete the workshops.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- why event end -->
+
+            <!-- speaker area start -->
+            <section class="speakers-area pt-80 pb-80 bg-light-ash">
+              <div class="container">
+                <h4 class="heading text-center mb-40">The Speakers</h4>
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Shaikat Galib/galib.jpeg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Shaikat M Galib</h6>
+                        <p class="speaker-designation mb-3">
+                          Data Scientist, H2O.ai
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Dr. Enayetur Raheem/Enayetur Raheem, PhD.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Enayetur Raheem</h6>
+                        <p class="speaker-designation mb-3">
+                          Scientist and Head of Research, Biomedical Research Foundation
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Dr. Sudipta Kar/picture.png" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Dr. Sudipta Kar</h6>
+                        <p class="speaker-designation mb-3">
+                          Applied Scientist, Amazon Alexa
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Tahsin Mostafiz/Tahsin Mostafiz.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Tahsin Mostafiz </h6>
+                        <p class="speaker-designation mb-3">
+                          Machine Learning Engineer, AI Samurai
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Saqiful Alam/IMG_6719.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Saqiful Alam</h6>
+                        <p class="speaker-designation mb-3">
+                          Analytics Adviser, Intelligent Machines Limited
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/default.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Nazib Ahmad</h6>
+                        <p class="speaker-designation mb-3">
+                          Founder and CTO, ANTT Robotics Ltd
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Intisar Tahmid/intisarpic.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Intisar Tahmid</h6>
+                        <p class="speaker-designation mb-3">
+                          Lecturer of ECE,NSU
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Abu Anas Shuvom/20200922_004250.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Abu Anas Shuvom</h6>
+                        <p class="speaker-designation mb-3">
+                          CEO, Sigmind.ai
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Dr.Himadri Nath Saha/Dr.Himadri Nath Saha.jpeg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Dr. Himadri Nath Saha </h6>
+                        <p class="speaker-designation mb-3">
+                          HoD of  CS, Calcutta University
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Dr. Saptarsi Goswami/Image.jpeg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Dr. Saptarsi Goswami</h6>
+                        <p class="speaker-designation mb-3">
+                          Assistant Professor of CS, Bangabasi Morning College
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Engr. Farhan Ferdous/Engr. Farhan Ferdous.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Engr. Farhan Ferdous</h6>
+                        <p class="speaker-designation mb-3">
+                          Managing Director & CEO, Japan-Bangladesh Robotic & Technology Ltd
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/default.jpg" alt="" class="img-fluid">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Saqiful Alam</h6>
+                        <p class="speaker-designation mb-3">
+                          Analytics Adviser, Intelligent Machines Limited
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="speaker-item position-relative overflow-hidden">
+                      <div class="text-center">
+                        <img src="assets/images/Guest Speakers Details/Dr. Samiul Alam/20201204_200750.jpg" alt="" class="img-fluid w-100">
+                      </div>
+                      <div class="overlay-area position-absolute p-4">
+                        <h6 class="speaker-name color-white mb-3">Dr. Samiul Alam</h6>
+                        <p class="speaker-designation mb-3">
+                          PhD Candidate at the University of Houston
+                        </p>
+                        <div class="social-icon">
+                          <ul class="list-unstyled">
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-facebook-f"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-linkedin"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-instagram"></i></a>
+                              </li>
+                              <li class="d-inline-block">
+                                  <a href="#" class="color-white"><i class="fab fa-twitter"></i></a>
+                              </li>
+                          </ul>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- speaker area end -->
+
+            <!-- event schedule start -->
+            <section class="schedule-area pt-80 pb-80">
+              <div class="container">
+                <h4 class="heading text-center mb-40">Event Schedule</h4>
+
+                <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active text-center" id="pills-day-one-tab" data-toggle="pill" href="#pills-day-one" role="tab" aria-controls="pills-day-one" aria-selected="true">
+                      Day 01<br> <span class="event-date">December 11, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-two-tab" data-toggle="pill" href="#pills-day-two" role="tab" aria-controls="pills-day-two" aria-selected="false">
+                      Day 02<br> <span class="event-date">December 12, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-three-tab" data-toggle="pill" href="#pills-day-three" role="tab" aria-controls="pills-day-three" aria-selected="false">
+                      Day 03<br> <span class="event-date">December 13, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-four-tab" data-toggle="pill" href="#pills-day-four" role="tab" aria-controls="pills-day-four" aria-selected="false">
+                      Day 04<br> <span class="event-date">December 14, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-five-tab" data-toggle="pill" href="#pills-day-five" role="tab" aria-controls="pills-day-five" aria-selected="false">
+                      Day 05<br> <span class="event-date">December 15, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-six-tab" data-toggle="pill" href="#pills-day-six" role="tab" aria-controls="pills-day-six" aria-selected="false">
+                      Day 06<br> <span class="event-date">December 16, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-seven-tab" data-toggle="pill" href="#pills-day-seven" role="tab" aria-controls="pills-day-seven" aria-selected="false">
+                      Day 07<br> <span class="event-date">December 17, 2020</span> 
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" id="pills-day-eight-tab" data-toggle="pill" href="#pills-day-eight" role="tab" aria-controls="pills-day-eight" aria-selected="false">
+                      Day 08<br> <span class="event-date">December 18, 2020</span> 
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="tab-content" id="pills-tabContent">
+                  <div class="tab-pane fade show active" id="pills-day-one" role="tabpanel" aria-labelledby="pills-day-one-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">9:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Shaikat Galib/galib.jpeg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Shaikat M Galib</h6>
+                              <p class="speaker-designation">Data Scientist, H2O.ai</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Kaggle Gold Solution
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-day-two" role="tabpanel" aria-labelledby="pills-day-two-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">12th December, 7:00pm </p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Dr. Enayetur Raheem/Enayetur Raheem, PhD.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Enayetur Raheem</h6>
+                              <p class="speaker-designation">Scientist and Head of Research, Biomedical Research Foundation</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Data Science in Biomedical 
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">12th December, 9:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Dr. Sudipta Kar/picture.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Dr. Sudipta Kar</h6>
+                              <p class="speaker-designation">Applied Scientist, Amazon Alexa</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            NLP
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="tab-pane fade" id="pills-day-three" role="tabpanel" aria-labelledby="pills-day-three-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">13th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Tahsin Mostafiz/Tahsin Mostafiz.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Tahsin Mostafiz </h6>
+                              <p class="speaker-designation">Machine Learning Engineer, AI Samurai</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Kaggle Compitetion
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">13th December, 9:00pm </p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Saqiful Alam/IMG_6719.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Saqiful Alam</h6>
+                              <p class="speaker-designation">Analytics Adviser, Intelligent Machines Limited</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Data Science
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-day-four" role="tabpanel" aria-labelledby="pills-day-four-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">14th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/default.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Nazib Ahmad</h6>
+                              <p class="speaker-designation">Founder and CTO, ANTT Robotics Ltd</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Industry  4.0 IoT Revolution
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-day-five" role="tabpanel" aria-labelledby="pills-day-five-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">15th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Intisar Tahmid/intisarpic.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name"> Mohammad Masudur Rahman</h6>
+                              <p class="speaker-designation">Research Fellow,AIMS Lab,UIU & Founding Advisor,Quantum.ai </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Research of Machine Learning 
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-day-six" role="tabpanel" aria-labelledby="pills-day-six-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">15th December, 9:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Abu Anas Shuvom/20200922_004250.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Intisar Tahmid</h6>
+                              <p class="speaker-designation">Lecturer of ECE,NSU</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Reinforcement learning
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">16th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Dr.Himadri Nath Saha/Dr.Himadri Nath Saha.jpeg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Abu Anas Shuvom</h6>
+                              <p class="speaker-designation">CEO, Sigmind.ai</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            AI with Embaded system
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-day-seven" role="tabpanel" aria-labelledby="pills-day-seven-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">16th December, 9:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Dr. Saptarsi Goswami/Image.jpeg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Dr. Himadri Nath Saha </h6>
+                              <p class="speaker-designation">HoD of  CS, Calcutta University</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Internet of Things
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">17th December, 9:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Engr. Farhan Ferdous/Engr. Farhan Ferdous.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Dr. Saptarsi Goswami</h6>
+                              <p class="speaker-designation">Assistant Professor of CS, Bangabasi Morning College</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Machine Learning 
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="pills-day-eight" role="tabpanel" aria-labelledby="pills-day-eight-tab">
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">17th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/default.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Engr. Farhan Ferdous</h6>
+                              <p class="speaker-designation">Managing Director & CEO, Japan-Bangladesh Robotic & Technology Ltd</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Robotics,IoT & AI
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">18th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Dr. Samiul Alam/20201204_200750.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Md. Sadiqur Rahman</h6>
+                              <p class="speaker-designation">Vice President, Data Science, Kazi IT Center Ltd.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Data Science
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="event-item py-4">
+                      <div class="row align-items-center">
+                        <div class="col-lg-2 mb-3">
+                          <p class="time text-uppercase mb-2">18th December, 7:00pm</p>
+                          <p class="host"></p>
+                        </div>
+                        <div class="col-lg-3 mb-3">
+                          <div class="d-flex">
+                            <div class="speaker-img mr-2">
+                              <img src="assets/images/Guest Speakers Details/Dr. Samiul Alam/20201204_200750.jpg" alt="" class="img-fluid">
+                            </div>
+                            <div class="speaker-description">
+                              <h6 class="speaker-name">Md. Sadiqur Rahman</h6>
+                              <p class="speaker-designation">Vice President, Data Science, Kazi IT Center Ltd.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-7 mb-3">
+                          <h6 class="session-title">
+                            Data Science
+                          </h6>
+                          <p class="session-description">
+                            
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- event schedule end -->
+
+            <!-- host start -->
+            <section class="host-area pt-60 pb-60 bg-light-ash">
+              <div class="container">
+                <h4 class="heading text-center mb-40">Host</h4>
+                <div class="row justify-content-center">
+                  <div class="col-md-4 mb-3">
+                    <img src="assets/images/logo/Logo-web-V1.png" class="img-fluid" alt="">
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- host end -->
+
+            <!-- official partners start -->
+            <section class="official-partner-area overflow-hidden pt-60 pb-60">
+              <div class="container">
+                <h4 class="heading text-center mb-40">Official Partner</h4>
+                <div class="official-partner-slider">
+                  
+                  <div>
+                    <img src="./assets/images/featured-slider/featured-1.png" alt="">
+                  </div>
+                
+                </div>
+              </div>
+            </section>
+            <!-- official partners end -->
+        </main>
+
+        <!-- footer start -->
+        <footer class="footer-area">
+            <div class="container">
+                <div class="row pt-80 mb-40">
+                    <div class="col-lg-6 mb-3">
+                        <h6 class="mb-20">Subscribe for getting updates</h6>
+                        <form action="">
+                            <div class="input-group subscribe-form w-75 mb-3">
+                                <input type="text" class="form-control" placeholder="Your E-Mail" aria-label="Your E-Mail" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                  <button class="input-group-text" id="basic-addon2">Subscribe</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="social-icon">
+                            <ul class="list-unstyled">
+                                <li class="d-inline-block">
+                                    <a href="https://www.facebook.com/quantumaihq"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="https://www.linkedin.com/company/quantumaihq/"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="https://www.instagram.com/quantumaihq/"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="https://twitter.com/quantumaihq/"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li class="d-inline-block">
+                                    <a href="https://www.youtube.com/channel/UCOUKVGER5RJqqbG8td_cFlA"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <h6 class="heading">Quick Links</h6>
+                        <div class="navigation-item">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="courses.html">Courses</a>
+                                </li>
+                                <li>
+                                    <a href="team.html">Our Team</a>
+                                </li>
+                                <li>
+                                    <a href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="events.html">Events</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 mb-3">
+                        <h6 class="heading">Others</h6>
+                        <div class="others-item">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="terms-of-use.html">Terms of Use</a>
+                                </li>
+                                <li>
+                                    <a href="privacy-policy.html">Privacy Policy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="copyright">
+                        <p class="text-center pb-20">
+                            &copy; Quantum AI. All rights reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+        <!-- navigation drawaer from left start -->
+        <div class="mobile-navigation position-fixed pt-10 pl-3" id="full-mobile-nav">
+            <h4 class="text-right pr-4"> <span class="cross-icon" onclick="hideMobileNav()"> <i class="fas fa-times"></i> </span> </h4>
+            <ul class="list-unstyled mb-30">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="events.html">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about-us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+
+            <form action="">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search here" aria-label="Search here" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="input-group-text h-100" id="basic-addon2">
+                        <i class="fas fa-search"></i>
+                      </button>
+                    </div>
+                </div>
+            </form>
+          </div>
+          
+          <div class="overlay-for-mobile-nav" id="overlay-mobile-nav" onclick="hideMobileNav()"></div>
+          <!-- navigation drawaer from left end -->
+		
+		
+		<!-- JS here -->
+        <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="./assets/js/vendor/jquery-3.2.1.min.js"></script>
+        <script src="./assets/plugins/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./assets/plugins/slick/slick.min.js"></script>
+        <script src="./assets/js/all.js"></script>
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
+
+     <!-- official partners start -->
+     <section class="official-partner-area overflow-hidden pt-60 pb-60>
+      <div class="container">
+        <h4 class="heading text-center mb-40">Official Partner</h4>
+        <div class="official-partner-slider">
+          @foreach ($features as $feature)
+          <div>
+              <img src="{{ asset('storage/app/public/uploads/featuredImage/'.$feature->image) }}" alt="Logo">
+          </div>
+          @endforeach
+        </div>
+      </div>
+    </section>
+
+    <section class="official-partner-area overflow-hidden pt-60 pb-60">
+      <div class="container">
+        <h4 class="heading text-center mb-40">Official Partner</h4>
+        <div class="official-partner-slider">
+          @foreach ($features as $feature)
+          <div>
+            <img src="{{ asset('storage/app/public/uploads/featuredImage/'.$feature->image) }}" alt="">
+          </div>
+          @endforeach
+        </div>
+      </div>
+    </section>

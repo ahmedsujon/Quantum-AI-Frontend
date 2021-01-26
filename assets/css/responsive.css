@@ -1,0 +1,50 @@
+/* Normal desktop :1200px. */
+@media (max-width: 1500px) {
+
+}
+
+/* Normal desktop :992px. */
+@media (max-width: 1200px) {
+
+}
+ 
+/* Tablet :768px. */
+@media (max-width: 991px) {
+
+}
+ 
+/* Large mobile :767px. */
+@media (max-width: 767px) {
+    .home-hero-area .hero-contents {
+        padding: 10rem 0 8rem;
+    }
+    .course-section .all-courses .course-grid {
+        grid-template-columns: 1fr;
+    }
+    .unique-grid-section {
+        gap: 30px;
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    .login-area .full-login {
+        width: 90%;
+    }
+    .boxShadow {
+        height: auto;
+    }
+}
+ 
+/* small mobile :576px. */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .login-area .full-login {
+        padding: 1.5rem;
+    }
+}
